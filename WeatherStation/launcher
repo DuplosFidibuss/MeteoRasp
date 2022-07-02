@@ -1,0 +1,11 @@
+#!/bin/bash
+
+service=python3
+
+if !(( $(ps -ef | grep -v grep | grep $service | wc -l) > 0 ))
+then
+    cd
+    cd /home/pi/Documents/Weather_station/WeatherStation
+    sudo python3 weather_station_BYO.py
+    cd
+fi
