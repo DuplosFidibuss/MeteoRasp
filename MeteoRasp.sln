@@ -7,6 +7,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WeatherDisplay", "WeatherDi
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WeatherStation", "WeatherStation\WeatherStation.pyproj", "{7F9F1DDF-65FF-4C27-95EE-BB296818484E}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "WeatherWatchStation", "WeatherWatchStation\WeatherWatchStation.pyproj", "{5F75B0A3-F07C-45FB-B398-B04DE3C0B213}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,8 @@ Global
 		{A6721836-333C-42AA-A7AC-74684879D5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F9F1DDF-65FF-4C27-95EE-BB296818484E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F9F1DDF-65FF-4C27-95EE-BB296818484E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F75B0A3-F07C-45FB-B398-B04DE3C0B213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F75B0A3-F07C-45FB-B398-B04DE3C0B213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
