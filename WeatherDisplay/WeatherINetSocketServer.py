@@ -1,5 +1,6 @@
 import socket
 import sys
+import logfile
 from WeatherDisplay import *
 
 HOST = '10.128.0.15'
@@ -25,6 +26,7 @@ try:
             update_display(surf, font, weather_data)
         else:
             data = data.strip('log')
+        logfile.write(data)
 except KeyboardInterrupt:
     pass
 finally:

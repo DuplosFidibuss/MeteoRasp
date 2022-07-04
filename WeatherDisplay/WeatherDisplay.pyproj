@@ -52,11 +52,12 @@
     <Content Include="Pictures\wind_rose_edited_small.png" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="WeatherSocketClient.py" />
+    <Compile Include="logfile.py" />
+    <Compile Include="WeatherBTSocketServer.py" />
     <Compile Include="WeatherData.py" />
     <Compile Include="WeatherDisplay.py" />
     <Compile Include="WeatherDisplayTest.py" />
-    <Compile Include="WeatherSocketServer.py" />
+    <Compile Include="WeatherINetSocketServer.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
